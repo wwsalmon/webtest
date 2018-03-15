@@ -94,7 +94,7 @@ a{
     height: 128px;
   }
 
-  .image-logo{
+  .page-inner img.image-logo, .page-wide img.image-logo{
     margin: 128px 0;
   }
 }
@@ -126,7 +126,7 @@ a{
     z-index: 6;
   }
 
-  .image-logo{
+  .page-inner img.image-logo, .page-wide img.image-logo{
     margin: 128px 0 64px 0;
   }
 }
@@ -164,9 +164,10 @@ a{
   margin: 0 auto;
 }
 
-.image-logo{
+.page-inner img.image-logo, .page-wide img.image-logo{
   display: block;
   width: 128px;
+  left: unset;
 }
 
 .small-links{
@@ -360,7 +361,7 @@ p.big-paragraph{
   }
 
   .blog-title{
-    font-size: 42px;
+    font-size: 36px;
     font-family: 'Playfair Display';
     font-weight: 700;
   }
@@ -406,14 +407,14 @@ p.big-paragraph{
 }
 
 .project-subtitle{
-  line-height: 1.4;
+  line-height: 1.6;
 }
 
 .page-inner img{
   width: 130%;
   position: relative;
   left: -15%;
-  margin: 32px 0;
+  margin: 48px 0;
   display: block;
 }
 
@@ -436,11 +437,12 @@ img.full-width{
 
 .embed-container{
   position: relative;
-  margin: 64px 0;
+  margin: 48px 0;
   padding-bottom: 56.25%;
   height: 0;
   overflow: hidden;
   width: 100%;
+  display: block;
 }
 
 .embed-container iframe, .embed-container object, .embed-container embed{
@@ -473,4 +475,11 @@ img.full-width{
   padding: 16px;
   border: 2px solid #0085FF;
   margin: 32px 0;
+  background-color: transparent;
+  transition: all 0.1s ease;
+}
+
+.footer-button:hover{
+  background-color: #0085FF;
+  color: #fff;
 }

@@ -14,16 +14,15 @@ function addNavbar(page){
       <div class='navbar-dropdown-arrow-outer'>
         <div class='navbar-dropdown-arrow'></div>
       </div>
+      <div class='navbar-dropdown-item'><a href='../andover/index.html'>Phillips Academy Admissions (Video)</a></div>
       <div class='navbar-dropdown-item'><a href='../moments/index.html'>Moments (Video)</a></div>
       <div class='navbar-dropdown-item'><a href='../holland4harlem/index.html'>Holland4Harlem (Graphics)</a></div>
       <div class='navbar-dropdown-item'><a href='../p6/index.html'>P6 Headphones (Video)</a></div>
       <div class='navbar-dropdown-item'><a href='../2train/index.html'>2 Train Robotics (Video)</a></div>
-      <div class='navbar-dropdown-item'><a href='../paadmissions/index.html'>Phillips Academy Admissions (Video)</a></div>
-      <div class='navbar-dropdown-item'><a href='../tedxpaandover/index.html'>TEDxPAAndover (Photo)</a></div>
       <div class='navbar-dropdown-item'><a href='../ragtime/index.html'>Ragtime (Photo)</a></div>
       <div class='navbar-dropdown-item'><a href='../columbiasecondary/index.html'>Columbia Secondary (Photo)</a></div>
     </div>
-    <div class='navbar-item'><a href=''><span>Blog Posts</span></a></div>
+    <div class='navbar-item'><a href='../blog/index.html'><span>Blog Posts</span></a></div>
     <div class='navbar-item'><a href=''><span>What I'm Up To</span></a></div>
     <div class='navbar-item'><a href='../about/index.html'><span>About / Resume</span></a></div>
   </div>
