@@ -7,8 +7,8 @@ function addNavbar(page){
   </script>
   <div class='hamburger'><span><i class="fa fa-bars"></i></span></div>
   <div class='navbar'>
-    <div class='navbar-item'><a href='../index.html'><span>Home</span></a></div>
-    <div class='navbar-item navbar-item-dropdown'><a href=''><span>Case Studies</span></a>
+    <div class='navbar-item' style='opacity: 1.0;'><a href='../index.html'><span style='color: #546e8d; font-weight: 600;'>Samson Zhang</span></a></div>
+    <div class='navbar-item navbar-item-dropdown'><span>Case Studies</span>
     </div>
     <div class='navbar-dropdown'>
       <div class='navbar-dropdown-arrow-outer'>
@@ -28,9 +28,9 @@ function addNavbar(page){
   </div>
   <div class='intro-spacer'></div>
   `
-  if (page == "home"){
-    navbarCode = navbarCode.split("../").join('');
-  }
+  if (page == "home") {navbarCode = navbarCode.split("../").join('');}
+
+  if (page == "double-page") {navbarCode = navbarCode.split('../').join('../../');}
 
   $("body").append(navbarCode);
 };
