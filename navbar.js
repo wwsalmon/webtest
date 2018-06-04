@@ -14,6 +14,7 @@ function addNavbar(page){
       <div class='navbar-dropdown-arrow-outer'>
         <div class='navbar-dropdown-arrow'></div>
       </div>
+      <div class='navbar-dropdown-item navbar-dropdown-item-all'><a href='../projects.html'>All Projects</a></div>
       <div class='navbar-dropdown-item'><a href='../andover/index.html'>Phillips Academy Admissions (Video)</a></div>
       <div class='navbar-dropdown-item'><a href='../moments/index.html'>Moments (Video)</a></div>
       <div class='navbar-dropdown-item'><a href='../holland4harlem/index.html'>Holland4Harlem (Graphics)</a></div>

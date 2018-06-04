@@ -59,11 +59,24 @@ a{
   }
 
   .navbar-dropdown-item a{
+    opacity: 0.7;
     color: #fff;
   }
 
   .navbar-dropdown-item a:hover{
+    opacity: 1.0;
     color: #0085FF;
+  }
+
+  .navbar-dropdown-item-all{
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+
+  .navbar-dropdown-item-all a{
+    opacity: 1.0;
+    padding-bottom: 6px;
   }
 
   div.navbar-dropdown-item:nth-of-type(2){
@@ -616,4 +629,35 @@ img.full-width{
   .blog-intro ~ .blog-list{
     display: none;
   }
+}
+
+.a-project{
+  padding: 32px 0;
+  line-height: 1.4;
+}
+
+div.a-project:nth-of-type(4n+1){
+  padding: 96px 0 32px 0;
+}
+
+div.a-project:first-of-type{
+  padding: 32px 0;
+}
+
+.a-project-title{
+  font-family: 'Playfair Display';
+  font-size: 36px;
+  padding-bottom: 16px;
+}
+
+.a-project-title a{
+  color: unset;
+}
+
+.a-project-title a:hover{
+  color: #0085FF;
+}
+
+.a-project-wip{
+  opacity: 0.4;
 }
