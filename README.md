@@ -1,2 +1,1 @@
-# webtest
-Repo hosting beta/test version of website
+This website was the 0.4.4 prototype of my website. The main live website was version 0.4.3. Before 0.4.4 was completed, I stopped working on it and instead made 0.4.5 in the videoportfolio2 repo. At the completion of 0.4.5, I have migrated everything to the main wwsalmon.github.io repo, with 0.4.3 and 0.4.4 in an archive folder and 0.4.5 as the main live website.
