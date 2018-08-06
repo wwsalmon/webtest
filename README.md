@@ -1,1 +1,9 @@
-This website was the 0.4.4 prototype of my website. The main live website was version 0.4.3. Before 0.4.4 was completed, I stopped working on it and instead made 0.4.5 in the videoportfolio2 repo. At the completion of 0.4.5, I have migrated everything to the main wwsalmon.github.io repo, with 0.4.3 and 0.4.4 in an archive folder and 0.4.5 as the main live website.
+# wwsalmon.com Webtest
+
+This repo hosts the latest test version of my main website, not just small iterations but complete from-the-ground-up changes, whether in design or changing code structure and generators.
+
+## Current Version: 0.4.6
+
+You can find documentation of all versions at my [wwsalmon.com archive](wwsalmon.com/archive).
+
+This is currently version 0.4.6; the current live version is 0.4.5, orr. built as videoportfolio2. 0.4.6 is the exact same as 0.4.5 as an end product, however it's been rebuilt from the ground up using Jekyll instead of just raw code.
