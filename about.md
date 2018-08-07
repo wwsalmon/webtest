@@ -8,7 +8,7 @@ permalink: /about/
 
 {% include head-p.html content="Hi, my name is Samson Zhang. I'm an 11th grader at Phillips Academy. I love filmmaking and photography, among other things." %}
 
-
+![On top of Mt. Washburn, Yellowstone Nat. Park]({{ baseurl }}/img/about/profile3.jpg)
 
 ## My Story
 

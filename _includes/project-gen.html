@@ -1,0 +1,12 @@
+
+{% for project in include.data-list %}
+
+<div class='project-item'>
+  <a href='{{ project.keyword }}'>
+    <img src='{{ site.baseurl }}/img{% if include.data-list == site.data.video-proj %}/thumb{% else %}/photo{% endif %}/{{ project.keyword }}.jpg'>
+    <h2>{{ project.name }}</h2>
+  </a>
+  <p>{{ project.type }}, {{ project.date }}</p>
+</div>
+
+{% endfor %}

@@ -4,7 +4,7 @@ layout: default
 
     <div class='content-container-inner'>
 
-      <div class='home-prof'><img src='about/profile.jpg'></img></div>
+      <div class='home-prof'><img src='{{ site.baseurl }}/img/about/profile.jpg'></img></div>
 
       <p class='hero-text'>Hello! I'm <b>Samson Zhang</b>. I'm a filmmaker, photographer, designer, developer, and junior at Phillips Academy. Welcome to my portfolio!</p>
 
@@ -33,123 +33,13 @@ layout: default
           <div class='video-container'><iframe id="ytplayer" type="text/html" src="https://www.youtube.com/embed/WplYyJehtOw?showinfo=0&rel=0" frameborder="0" allowfullscreen></iframe></div>
         </div>
 
-        <div class='project-item'>
-          <a href='andover/index.html'>
-            <img src='thumb/andover.jpg'/>
-            <h2>Andover Admissions</h2>
-          </a>
-          <p>Promotional Campaign, 2018</p>
-        </div>
-
-        <div class='project-item'>
-          <a href='anl/index.html'>
-            <img src='thumb/anl.jpg'/>
-            <h2>John's Plan / ANL 2018</h2>
-          </a>
-          <p>Music Video, May 2018</p>
-        </div>
-
-        <div class='project-item'>
-          <a href='cyclist/index.html'>
-            <img src='thumb/cyclist.jpg'/>
-            <h2>Cyclist</h2>
-          </a>
-          <p>Short Film, April 2018</p>
-        </div>
-
-        <div class='project-item'>
-          <a href='p6/index.html'><img src='thumb/p6.jpg'/>
-            <h2>P6 Headphones Review</h2></a>
-            <p>YouTube Video, July 2017</p>
-        </div>
-
-        <div class='project-item'>
-          <a href='moments/index.html'>
-            <img src='thumb/moments.jpg'/>
-            <h2>Moments</h2>
-          </a>
-          <p>Short Film, Aug 2017 / Feb 2018</p>
-        </div>
-
-        <div class='project-item'>
-          <a href='2train/index.html'>
-            <img src='thumb/2train.jpg'/>
-            <h2>Columbia University's 2 Train Robotics</h2>
-          </a>
-          <p>Media Direction, 2016-17</p>
-        </div>
-
-        <div class='project-item'>
-          <a href='fowa/index.html'><img src='thumb/fowa.jpg'/>
-          <h2>Food Waste Challenge</h2></a>
-          <p>Promotional Video, April 2018</p>
-        </div>
-
-        <div class='project-item'>
-          <a href='lily/index.html'>
-            <img src='thumb/lily.jpg'/>
-            <h2>Lily</h2>
-          </a>
-          <p>Short Film, January 2018</p>
-        </div>
-
-        <div class='project-item'>
-          <a href='g4g/index.html'><img src='thumb/g4g.jpg'/>
-          <h2>Greenlight for Girls</h2></a>
-          <p>Highlight Video, April 2018</p>
-        </div>
+        {% include project-gen.html data-list=site.data.video-proj %}
 
       </div>
 
       <div class='projects cat-photo'>
 
-        <div class='project-item'>
-          <a href='marchforourlives/index.html'>
-            <img src='photo/marchforourlives-cover.jpg'/>
-            <h2>March For Our Lives</h2>
-          </a>
-          <p>Personal, 2018</p>
-        </div>
-
-        <div class='project-item'>
-          <a href='andover-cycling/index.html'>
-            <img src='photo/cycling-cover.jpg'/>
-            <h2>Andover Cycling</h2>
-          </a>
-          <p>Phillips Academy Andover, 2018</p>
-        </div>
-
-        <div class='project-item'>
-          <a href='americansw/index.html'>
-            <img src='photo/americansw-cover.jpg'/>
-            <h2>American Southwest</h2>
-          </a>
-          <p>Personal, 2017</p>
-        </div>
-
-        <div class='project-item'>
-          <a href='ragtime/index.html'>
-            <img src='photo/ragtime-cover.jpg'/>
-            <h2>Ragtime</h2>
-          </a>
-          <p>Phillips Academy Andover, 2018</p>
-        </div>
-
-        <div class='project-item'>
-          <a href='intheheights/index.html'>
-            <img src='photo/intheheights-cover.jpg'/>
-            <h2>In The Heights</h2>
-          </a>
-          <p>Columbia Secondary School, 2017</p>
-        </div>
-
-        <div class='project-item'>
-          <a href='columbiasecondary/index.html'>
-            <img src='photo/msgov-cover.jpg'/>
-            <h2>CSS Student Government</h2>
-          </a>
-          <p>Columbia Secondary School, 2015-17</p>
-        </div>
+        {% include project-gen.html data-list=site.data.photo-proj %}
 
       </div>
 
@@ -179,4 +69,4 @@ layout: default
 
     </div>
 
-  <script src='project-toggle.js'></script>
+  <script src='{{ site.baseurl }}/js/project-toggle.js'></script>
