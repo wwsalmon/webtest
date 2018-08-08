@@ -2,5 +2,29 @@
 summer2018:
   -
     name: Cooper Union Summer STEM
-    role: Makerspace Program
-    
+    keyword: custem
+    role: Makerspace Program - Auto Turner, Team Lead
+    description:
+  -
+    name: POD 125 & Marisol Alcantara for NY Senate
+    keyword: pod125
+    role: Graphic Designer, Media Producer
+    description: Point of Departure 125 (POD 125) is a digital political advertisement agency based in New York City. One of POD's clients this summer was Marisol Alcantara, running for re-election in NY Senate District 31. I worked closely with POD and the campaign to create visuals of web ads as well as print posters and short social media videos. The ads I've created have reached hundreds of thousands of people and have high click-through rates.
+summer2017:
+  -
+    name: NYU Center for Mathematical Talent
+    keyword: nyucmt
+    role: Summer Program
+    description:
+  -
+    name: Marvin Holland for City Council
+    keyword: h4h
+    role: Lead Graphic Designer
+    description:
+school2018:
+  name: Phillips Academy Andover
+  grade: 10th Grade
+  classes:
+    - Precalculus
+    - Physics 400 (AP Physics)
+    - Music 500 & 550 (AP Music Theory)

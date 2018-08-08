@@ -20,6 +20,12 @@ I'll forever be trying to escape Plat 3 in Rocket League, love cycling and playi
 
 ## What I've Been Up To
 
+{% include positions.html %}
+
+{::comment}
+
+## What I've Been Up To
+
 ### School 2018-19
 - Phillips Academy Andover: 11th Grade
 - Andover Moviemakers
@@ -75,3 +81,5 @@ I'll forever be trying to escape Plat 3 in Rocket League, love cycling and playi
   - 9th Grade Rep 2016-17
 - Cross Country
 - NYS Regents Algebra, Geometry, Biology, Earth Science, Global History
+
+{:/comment}
