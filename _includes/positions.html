@@ -2,17 +2,18 @@
 
   <h3 class='small-head'>Summer 2018</h3>
 
-  {% for item in site.data.positions.summer2018 %}
-  <form>
-    <input type='checkbox' id='{{ item.keyword }}'>
-    <div class='about-item'><label for='{{ item.keyword }}'>
-      <span class='about-name'>{{ item.name }}</span>
-      <span class='about-role'>{{ item.role }}</span>
-    </label></div>
-    <div class='about-more-info'>
-      <p>{{ item.description }}</p>
-    </div>
-  </form>
+  {% for item in site.positions %}
+    {% if item.time == "summer2018" %}
+      {% include position-gen.html name=item.name role=item.role description=item.content %}
+    {% endif %}
+  {% endfor %}
+
+  <h3 class='small-head'>Summer 2017</h3>
+
+  {% for item in site.positions %}
+    {% if item.time == "summer2017" %}
+      {% include position-gen.html name=item.name role=item.role description=item.content %}
+    {% endif %}
   {% endfor %}
 
 </div>

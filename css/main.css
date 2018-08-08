@@ -271,6 +271,10 @@ div.other-item:not(:first-of-type){
   opacity: 0.5;
 }
 
+.about-positions{
+  padding-bottom: 64px;
+}
+
 .about-positions h3{
   margin-top: 48px;
   margin-bottom: 24px;
@@ -305,6 +309,11 @@ div.other-item:not(:first-of-type){
   max-height: 0;
   overflow: hidden;
   transition: all 0.4s ease;
+  height: 300px;
+}
+
+.about-more-info img{
+  max-width: 200px;
 }
 
 .about-more-info p{
@@ -316,15 +325,11 @@ div.other-item:not(:first-of-type){
 }
 
 .about-positions input[type='checkbox']:checked ~ .about-more-info{
-  max-height: 400px;
+  max-height: 300px;
 }
 
 .about-positions input[type='checkbox']:checked ~ .about-item{
   opacity: 1.0;
-}
-
-.about-positions input[type='checkbox']:checked ~ .about-item .about-name{
-
 }
 
 .about-name{

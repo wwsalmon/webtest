@@ -12,6 +12,7 @@ collections:
   portfolio:
     output: true
     permalink: /cupcakes/:path/
+  positions:
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

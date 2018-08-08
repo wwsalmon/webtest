@@ -1,0 +1,10 @@
+<form>
+  <input type='checkbox' id='{{ item.keyword }}'>
+  <div class='about-item'><label for='{{ item.keyword }}'>
+    <span class='about-name'>{{ include.name }}</span>
+    <span class='about-role'>{{ include.role }}</span>
+  </label></div>
+  <div class='about-more-info'>
+    <p>{{ include.description }}</p>
+  </div>
+</form>
