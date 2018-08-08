@@ -49,6 +49,7 @@ a{
  }
 
  .head-p{
+   font-size: 28px;
    margin-top: 32px;
    margin-bottom: 32px;
    line-height: 1.5;
@@ -268,6 +269,10 @@ div.other-item:not(:first-of-type){
 
 .footer p{
   opacity: 0.5;
+}
+
+.about-positions h3{
+
 }
 
 @media (min-width: 620px){
