@@ -4,12 +4,12 @@ permalink: rl-timeline
 type: Design & Code Concept
 timeframe: 2017 - WIP
 topStrip: Product Design & Development Case Study
-layout: case
+layout: page
 
 cat: eng
 
 displayTitle: Rocket League Timeline (2017 - WIP)
-descript: Esports is all about the storylines; but with team changes and roster shuffles several times a year, they're hard to follow. RL Timeline is a concept for a way to see RL History in a whole new way.
+description: Esports is all about the storylines; but with team changes and roster shuffles several times a year, they're hard to follow. RL Timeline is a concept for a way to see RL History in a whole new way.
 ---
 
 {% include image-gen.html src='/img/eng/rl-timeline-screenshot.png' alt='Screenshot of RL Timeline' %}

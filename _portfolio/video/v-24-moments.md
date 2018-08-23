@@ -1,6 +1,6 @@
 ---
 title: Moments
-layout: case
+layout: page
 permalink: moments
 
 type: "Short Film"
@@ -8,7 +8,7 @@ timeframe: "Aug 2017 / Feb 2018"
 
 displayTitle: Moments (2017/18)
 topStrip: video case study
-descript: "Cinematic travel film of the American Southwest."
+description: "Cinematic travel film of the American Southwest."
 ---
 
 {% include youtube-gen.html id='UDABBKtyu-U' %}

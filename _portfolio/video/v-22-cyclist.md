@@ -1,6 +1,6 @@
 ---
 title: Cyclist
-layout: case
+layout: page
 permalink: cyclist
 
 type: "Short Film"
@@ -8,7 +8,7 @@ timeframe: "April 2018"
 
 displayTitle: Cyclist (2018)
 topStrip: video case study
-descript: "30 second short film about cycling made as an application for Andover Moviemakers."
+description: "30 second short film about cycling made as an application for Andover Moviemakers."
 ---
 
 {% include youtube-gen.html id='Vk1xYyLmjiU' %}

@@ -1,6 +1,6 @@
 ---
 title: Food Waste Challenge
-layout: case
+layout: page
 permalink: fowa
 
 type: "Promotional Video"
@@ -8,7 +8,7 @@ timeframe: "April 2018"
 
 displayTitle: Food Waste Challenge Kickoff (2018)
 topStrip: video case study
-descript: "Short promotional video for the 2018 Food Waste Challenge."
+description: "Short promotional video for the 2018 Food Waste Challenge."
 ---
 
 {% include youtube-gen.html id='oWyXCUr9sog' %}

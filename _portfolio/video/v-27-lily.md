@@ -1,6 +1,6 @@
 ---
 title: Lily
-layout: case
+layout: page
 permalink: lily
 
 type: "Short Film"
@@ -8,7 +8,7 @@ timeframe: "January 2018"
 
 displayTitle: Lily (2018)
 topStrip: video case study
-descript: '"A manipulative young woman in love with a vulnerable young man is nothing like she seems." A short film made in 24 hours.'
+description: '"A manipulative young woman in love with a vulnerable young man is nothing like she seems." A short film made in 24 hours.'
 ---
 
 {% include youtube-gen.html id='oWyXCUr9sog' %}

@@ -8,7 +8,7 @@ timeframe: "May 2018"
 
 displayTitle: John's Plan / ANL (2018)
 topStrip: video case study
-descript: "Music video made as a part of comedy club Under the Bed's annual Andover Night Live show."
+description: "Music video made as a part of comedy club Under the Bed's annual Andover Night Live show."
 ---
 
 {% include youtube-gen.html id='1fGMSweCU5o' %}
@@ -19,14 +19,14 @@ John's Plan is a parody of Drake's God's Plan, spoofing our head of school John 
 
 The video became the flagship video of the show, amassing almost 2000 views on YouTube in the three days after its upload. Ultimately, UTB president Charlie Mayhew, after speaking with Mr. Palfrey, made the unilateral decision to take the video down to prevent its misuse by those outside of the school community.
 
-![John's Plan YouTube Stats](/img/anl/ytstats.png)
+{% include image-gen.html src='/img/video/anl/ytstats.png' alt="John's Plan YouTube Stats" %}
 
 In addition to working on John's Plan, I also supervised tech and editing for all projects alongside fellow Moviemaker Harrison Ringel, and took over especially as shownight drew near. I was the cinematographer for the majority of the ANL intro (below), edited by Harrison, and ran tech on the night of the show.
 
 {% include youtube-gen.html id='nLll7jCkuxA' %}
 
-{% include image-gen.html source='/img/video/anl/opphoenix2.jpg' alt='Op Phoenix Thumbnail' %}
+{% include image-gen.html src='/img/video/anl/opphoenix2.jpg' alt='Op Phoenix Thumbnail' %}
 
-{% include image-gen.html source='/img/video/anl/keynotes.jpg' alt='Keynotes Thumbnail' %}
+{% include image-gen.html src='/img/video/anl/keynotes.jpg' alt='Keynotes Thumbnail' %}
 
-{% include image-gen.html source='/img/video/anl/kormanskorner2.jpg' alt="Korman's Korner Thumbnail" %}
+{% include image-gen.html src='/img/video/anl/kormanskorner2.jpg' alt="Korman's Korner Thumbnail" %}

@@ -2,11 +2,15 @@
 layout: page
 title: About
 displayTitle: About
-descript: Hi, my name is Samson Zhang. I'm an 11th grader at Phillips Academy. I love filmmaking, photography, design, and code, among other things.
+description: Hi, my name is Samson Zhang. I'm an 11th grader at Phillips Academy. I love filmmaking, photography, design, and code, among other things.
 permalink: /about/
 ---
 
 {% include image-gen.html src='/img/about/profile3.jpg' alt='On top of Mt. Washburn, Yellowstone Nat. Park' %}
+
+## What I've Been Up To
+
+{% include positions.html %}
 
 ## My Story
 
@@ -17,10 +21,6 @@ The next week, I brought my iPad and arrived at his house early, before all my o
 Today I live in New York City and attend Phillips Academy in Andover, MA. I love storytelling, especially through filmmaking and photography, but also design and code. I’m constantly experimenting and learning new things. I’ve worked on all sorts of projects, from 30-second shorts to 30-minute documentaries, from music videos to admissions campaigns.
 
 I'll forever be trying to escape Plat 3 in Rocket League, love cycling and playing piano, and pray to my bible of Isaac Asimov short stories every night.
-
-## What I've Been Up To
-
-{% include positions.html %}
 
 {::comment}
 

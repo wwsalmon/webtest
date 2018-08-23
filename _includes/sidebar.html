@@ -4,7 +4,7 @@
   <div class='nav-item {% if page.layout == "home" %} selected {% endif %}'><a href='{{ site.baseurl }}/'><span>Home</span></a></div>
   <div class='nav-item {% if page.title == "About" %} selected {% endif %}'><a href='{{ site.baseurl }}/about'><span>About</span></a></div>
   <div class='nav-item'><a href='{{ site.baseurl }}/assets/szhang-resume.pdf'><span>Resume</span></a></div>
-  <div class='nav-item contact'><a href='{{ site.baseurl }}/contact'><span>Contact</span></a></div>
+  <div class='nav-item {% if page.title == "Contact" %} selected {% endif %}'><a href='{{ site.baseurl }}/contact'><span>Contact</span></a></div>
   <div class='sidebar-social'>
     <div class='sidebar-social-item yt'><a href='https://www.youtube.com/channel/UCNyoJQcV6NCHiRCeqcCxJag' target="_blank"><i class="fab fa-youtube"></i></a></div>
     <div class='sidebar-social-item ig'><a href='https://www.instagram.com/samsonzhangthesalmon/' target="_blank"><i class="fab fa-instagram"></i></a></div>

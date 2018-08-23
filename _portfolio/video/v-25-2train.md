@@ -1,6 +1,6 @@
 ---
 title: Columbia University's 2 Train Robotics
-layout: case
+layout: page
 permalink: 2train
 
 type: "Media Direction"
@@ -8,7 +8,7 @@ timeframe: "2016-17"
 
 displayTitle: 2 Train Robotics (2016-17)
 topStrip: video case study
-descript: "Founded media team and served as media director, leading production of several videos and revamping of branding and social media/website."
+description: "Founded media team and served as media director, leading production of several videos and revamping of branding and social media/website."
 ---
 
 {% include youtube-gen.html id='oWyXCUr9sog' %}
