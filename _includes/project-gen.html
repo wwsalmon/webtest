@@ -1,12 +1,15 @@
+{% for project in site.portfolio %}
 
-{% for project in include.data-list %}
+  {% if project.topStrip == include.topStrip %}
 
-<div class='project-item'>
-  <a href='{{ project.keyword }}'>
-    <img src='{{ site.baseurl }}/img{% if include.data-list == site.data.video-proj %}/thumb{% else %}/photo{% endif %}/{{ project.keyword }}.jpg'>
-    <h2>{{ project.name }}</h2>
-  </a>
-  <p>{{ project.type }}, {{ project.date }}</p>
-</div>
+  <div class='project-item'>
+    <a href='{{ project.permalink }}'>
+      <img src='{{ site.baseurl }}/img/thumb/{{ project.permalink }}{% if project.img-ext %}.{{ project.img-ext }}{% else %}.jpg{% endif %}'>
+      <h2>{{ project.title }}</h2>
+    </a>
+    <p>{{ project.type }}, {{ project.timeframe }}</p>
+  </div>
+
+  {% endif %}
 
 {% endfor %}

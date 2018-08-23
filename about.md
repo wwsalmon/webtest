@@ -2,11 +2,11 @@
 layout: page
 title: About
 displayTitle: About
-descript: Hi, my name is Samson Zhang. I'm an 11th grader at Phillips Academy. I love filmmaking and photography, among other things.
+descript: Hi, my name is Samson Zhang. I'm an 11th grader at Phillips Academy. I love filmmaking, photography, design, and code, among other things.
 permalink: /about/
 ---
 
-{% include image-gen.html source='/img/about/profile3.jpg' alt='On top of Mt. Washburn, Yellowstone Nat. Park' %}
+{% include image-gen.html src='/img/about/profile3.jpg' alt='On top of Mt. Washburn, Yellowstone Nat. Park' %}
 
 ## My Story
 

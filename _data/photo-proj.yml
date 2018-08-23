@@ -1,31 +1,31 @@
 ---
 -
-  name: "March For Our Lives"
-  keyword: "marchforourlives"
-  type: "Personal"
-  date: 2018
+  title: March For Our Lives
+  permalink: marchforourlives
+  type: Personal
+  timeframe: 2018
 -
-  name: "Andover Cycling"
-  keyword: "andover-cycling"
-  type: "Phillips Academy Andover"
-  date: 2018
+  title: Andover Cycling
+  permalink: andover-cycling
+  type: Phillips Academy Andover
+  timeframe: 2018
 -
-  name: "American Southwest"
-  keyword: "americansw"
-  type: "Personal"
-  date: 2017
+  title: American Southwest
+  permalink: americansw
+  type: Personal
+  timeframe: 2017
 -
-  name: "Ragtime"
-  keyword: "ragtime"
-  type: "Phillips Academy Andover"
-  date: 2018
+  title: Ragtime
+  permalink: ragtime
+  type: Phillips Academy Andover
+  timeframe: 2018
 -
-  name: "In The Heights"
-  keyword: "intheheights"
-  type: "Columbia Secondary School"
-  date: 2017
+  title: In The Heights
+  permalink: intheheights
+  type: Columbia Secondary School
+  timeframe: 2017
 -
-  name: "CSS Student Government"
-  keyword: "columbiasecondary"
-  type: "personal"
-  date: 2018
+  title: CSS Student Government
+  permalink: columbiasecondary
+  type: personal
+  timeframe: 2018

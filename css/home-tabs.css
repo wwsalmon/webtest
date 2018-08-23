@@ -1,0 +1,44 @@
+.home-tabs{
+  display: flex;
+  flex-flow: row nowrap;
+  overflow-x: auto;
+}
+
+.home-tabs input{
+  display: none;
+}
+
+.home-tabs input[type="radio"]:checked+label{
+  opacity: 1.0;
+}
+
+.home-tabs .small-head{
+  display: inline-block;
+  margin-right: 24px;
+  opacity: 0.2;
+  margin-top: 0;
+  margin-bottom: 0;
+  cursor: pointer;
+  transition: all 0.05s ease;
+  flex: auto 0 0;
+}
+
+.home-tabs .small-head.label-design a{
+  color: unset;
+  transition: all 0.05s ease;
+}
+
+.home-tabs .small-head.label-design a:hover{
+  color: #0085FF;
+}
+
+.home-tabs .small-head:hover{
+  opacity: 0.4;
+}
+
+.home-tabs .tab-divider{
+  opacity: 0.4;
+  padding: 0 8px;
+  font-weight: 400;
+  pointer-events: none;
+}

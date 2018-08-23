@@ -17,13 +17,13 @@ layout: default
         <input type='radio' name='home-tabs' id='cat-video' checked/>
         <label class='small-head' for='cat-video'>Video</label>
 
+        <input type='radio' name='home-tabs' id='cat-eng'/>
+        <label class='small-head' for='cat-eng'>Things I've Made</label>
+
         <input type='radio' name='home-tabs' id='cat-photo'/>
         <label class='small-head' for='cat-photo'>Photo</label>
 
         <div class='small-head label-design'><span><a href='https://www.behance.net/wwsalmon' target="_blank"><i class="fab fa-behance" style='margin-right: 8px;'></i>Design</a></span></div>
-
-        <input type='radio' name='home-tabs' id='cat-other'/>
-        <label class='small-head' for='cat-other'>Other</label>
 
       </form>
 
@@ -33,37 +33,34 @@ layout: default
           <div class='video-container'><iframe id="ytplayer" type="text/html" src="https://www.youtube.com/embed/WplYyJehtOw?showinfo=0&rel=0" frameborder="0" allowfullscreen></iframe></div>
         </div>
 
-        {% include project-gen.html data-list=site.data.video-proj %}
+        {% include project-gen.html topStrip="video case study" %}
 
       </div>
 
       <div class='projects cat-photo'>
 
-        {% include project-gen.html data-list=site.data.photo-proj %}
+        {% include project-gen.html topStrip="photo gallery" %}
 
       </div>
 
-      <div class='projects cat-other'>
+      <div class='projects cat-eng'>
 
-        <div class='page'>
+        {% for project in site.portfolio %}
 
-          <div class='other-item'><span><a href='tools/index.html'><i class="fas fa-toolbox" style='margin-right: 8px;'></i> Tools / Weapons of choice</a></span></div>
+          {% if project.cat == "eng" %}
 
-          <p>All the fancy hardware and software I use.</p>
+          <div class='project-item'>
+            <a href='{{ project.permalink }}'>
+              <img src='{{ site.baseurl }}/img/thumb/{{ project.permalink }}{% if project.img-ext %}.{{ project.img-ext }}{% else %}.jpg{% endif %}'>
+              <h2>{{ project.title }}</h2>
+            </a>
+            <p>{{ project.type }}, {{ project.timeframe }}</p>
+          </div>
 
-          <div class='other-item'><span>This website: technical details</span></div>
+          {% endif %}
 
-          <p>Coded in HTML, CSS, and JS using JQuery from scratch in Atom; hosted on GitHub Pages. This is v0.4.5 of this website, see the below link for a full documentation of its history.</p>
+        {% endfor %}
 
-          <div class='other-item'><span><a href='archive/index.html'><i class="far fa-clock" style='margin-right: 8px;'></i> wwsalmon.com Archive</a></span></div>
-
-          <p>A comprehensive documentation of the history of wwsalmon.com, including links to live or preservations of every version and commentary. Basically tells the story of how I learned web development and all the little experiments I did along the way, has a good amount of technical details if you care about that.</p>
-
-          <div class='other-item'><span><a href='nia.pdf'>NIA</a></span></div>
-
-          <p>PDF of a 200-ish page story I wrote when I was in like sixth grade that I'm trying to get my sister to read.</p>
-
-        </div>
 
       </div>
 

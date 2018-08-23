@@ -1,3 +1,6 @@
+@import url("sidebar.css");
+@import url("home-tabs.css");
+
 body{
   margin: 0;
   font-size: 24px;
@@ -19,128 +22,79 @@ a{
   text-decoration: none;
 }
 
- .container{
-   max-width: 1300px;
-   margin: 0 auto;
-   min-height: 100vh;
- }
+.container{
+  max-width: 1300px;
+  margin: 0 auto;
+  min-height: 100vh;
+}
 
- p{
-   line-height: 1.4;
- }
+p{
+  line-height: 1.4;
+}
 
- h1{
-   font-size: 64px;
-   margin: 0;
- }
+h1{
+  font-size: 64px;
+  margin: 0;
+}
 
- .page p, .page h1, .page ul, .page blockquote, .page .small-head, .page .head-p{
-   max-width: 700px;
- }
+.page p, .page h1, .page ul, .page blockquote, .page .small-head, .page .head-p{
+  max-width: 700px;
+}
 
- .page div.small-head:first-of-type{
-   margin-bottom: 16px;
- }
+.page div.small-head:first-of-type{
+  margin-bottom: 16px;
+}
 
- .page img{
-   max-width: 100%;
-   margin: 32px 0;
-   max-height: 85vh;
- }
+.page img{
+  max-width: 100%;
+  margin: 32px 0;
+  max-height: 85vh;
+}
 
- .head-p{
-   font-size: 28px;
-   margin-top: 32px;
-   margin-bottom: 32px;
-   line-height: 1.5;
- }
+.head-p{
+  font-size: 28px;
+  margin-top: 32px;
+  margin-bottom: 32px;
+  line-height: 1.5;
+}
 
- .page p, .page ul, .page blockquote{
-   font-family: 'Roboto';
-   margin-top: 42px;
-   margin-bottom: 42px;
-   margin-left: 0;
-   font-weight: 400;
-   font-size: 20px;
-   line-height: 1.6;
- }
+.page p, .page ul, .page blockquote{
+  font-family: 'Roboto';
+  margin-top: 42px;
+  margin-bottom: 42px;
+  margin-left: 0;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.6;
+}
 
- .page ul{
-   padding-left: 20px;
- }
+.page ul{
+  padding-left: 20px;
+}
 
- .page blockquote{
-   font-style: italic;
-   padding-left: 16px;
-   border-left: 1px solid #000;
- }
+.page blockquote{
+  font-style: italic;
+  padding-left: 16px;
+  border-left: 1px solid #000;
+}
 
- .page .video-container{
-   margin: 64px 0;
- }
+.page .video-container{
+  margin: 64px 0;
+}
 
- .divider{
-   width: 64px;
-   height: 4px;
-   background-color: #546e8d;
-   margin: 48px 0;
- }
+.divider{
+  width: 64px;
+  height: 4px;
+  background-color: #546e8d;
+  margin: 48px 0;
+}
 
- .small-head{
-   text-transform: uppercase;
-   font-weight: 700;
-   letter-spacing: 1px;
-   margin: 84px 0 48px 0;
- }
-
- .home-tabs{
-   display: flex;
-   flex-flow: row nowrap;
-   overflow-x: auto;
- }
-
- .home-tabs input{
-   display: none;
- }
-
- .home-tabs input[type="radio"]:checked+label{
-   opacity: 1.0;
- }
-
- .home-tabs .small-head{
-   display: inline-block;
-   margin-right: 24px;
-   opacity: 0.2;
-   margin-top: 0;
-   margin-bottom: 0;
-   cursor: pointer;
-   transition: all 0.05s ease;
-   flex: auto 0 0;
- }
-
- .home-tabs label.small-head:last-of-type{
-   padding-right: 32px;
- }
-
- .home-tabs .small-head.label-design a{
-   color: unset;
-   transition: all 0.05s ease;
- }
-
- .home-tabs .small-head.label-design a:hover{
-   color: #0085FF;
- }
-
- .home-tabs .small-head:hover{
-   opacity: 0.4;
- }
-
- .home-tabs .tab-divider{
-   opacity: 0.4;
-   padding: 0 8px;
-   font-weight: 400;
-   pointer-events: none;
- }
+.small-head{
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin: 84px 0 48px 0;
+}
 
 .content-container{
   width: 100%;
@@ -194,7 +148,6 @@ a{
 .projects{
   display: flex;
   flex-flow: row wrap;
-  min-height: 99vh;
 }
 
 .project-item{
@@ -210,7 +163,7 @@ a{
   border-radius: 4px;
 }
 
-.project-item img:hover, .project-item .video-container:hover{
+.project-item img:hover{
   box-shadow: 0 6px 20px rgba(0,0,0,0.19), 0 4px 6px rgba(0,0,0,0.23);
   transition: all 0.2s ease;
   transform: translateY(-8px);
