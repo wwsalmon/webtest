@@ -10,7 +10,7 @@ displayTitle: Cyclist (2018)
 topStrip: video case study
 description: "30 second short film about cycling made as an application for Andover Moviemakers."
 
-see-more:
+see-also:
   - andover-cycling
   
 ---

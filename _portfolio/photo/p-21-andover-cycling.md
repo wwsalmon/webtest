@@ -21,7 +21,7 @@ photos:
   - champs-2
   - champs-3
 
-see-more:
+see-also:
   - cyclist
 
 ---

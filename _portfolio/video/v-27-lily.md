@@ -9,10 +9,18 @@ timeframe: "January 2018"
 displayTitle: Lily (2018)
 topStrip: video case study
 description: '"A manipulative young woman in love with a vulnerable young man is nothing like she seems." A short film made in 24 hours.'
+
+bts-slider:
+ - poster
+ - pic2
+ - pic1
+
 ---
 
-{% include youtube-gen.html id='oWyXCUr9sog' %}
+{% include youtube-gen.html id='Xef4NkeTV90' %}
 
-> We are a FIRST® Robotics Competition team based at Columbia University and comprised of students from both Morris High School Campus in Morrisania and Columbia Secondary School in Harlem.
+In January 2018, I participated in Andover Moviemakers' Flash Films, an event where a film is written, shot, and edited in the course of 24 hours. The event began 8 PM on Friday night; with my friend Maxwell Bao, I had a script written by 5 AM, slept two hours, shot and edited the film the next day, and watched it on the big screen at 8 PM Saturday.
 
-I joined 2 Train in September 2016. I worked with another team member to film and edit out crowdfunding video. I founded the media team, dedicated to documenting the season through video, working on any parts of the competition that required media, and running social media for outreach and seeking sponsors. Under my leadership, the team was able to compete in the Chairman's Competition for the first time in several years, and underwent a website redesign and branding revamps.
+## Gallery
+
+{% include slider-gen.html data=page.bts-slider %}

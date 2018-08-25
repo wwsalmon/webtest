@@ -10,7 +10,12 @@ displayTitle: John's Plan / ANL (2018)
 topStrip: video case study
 description: "Music video made as a part of comedy club Under the Bed's annual Andover Night Live show."
 
-see-more:
+thumb-slider:
+  - opphoenix2
+  - keynotes
+  - kormanskorner2
+
+see-also:
   - andover
   - cyclist
   - andover-cycling
@@ -31,8 +36,4 @@ In addition to working on John's Plan, I also supervised tech and editing for al
 
 {% include youtube-gen.html id='nLll7jCkuxA' %}
 
-{% include image-gen.html src='/img/video/anl/opphoenix2.jpg' alt='Op Phoenix Thumbnail' %}
-
-{% include image-gen.html src='/img/video/anl/keynotes.jpg' alt='Keynotes Thumbnail' %}
-
-{% include image-gen.html src='/img/video/anl/kormanskorner2.jpg' alt="Korman's Korner Thumbnail" %}
+{% include slider-gen.html data=page.thumb-slider %}

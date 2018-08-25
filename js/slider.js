@@ -7,11 +7,16 @@ $(function(){
     var sliderMain = container.find(".slider-main");
     var slideHeights = [];
 
-    slides.each(function(){
-      slideHeights.push($(this).height());
-      $(this).addClass("maxHeight");
-    });
-    var maxHeight = Math.max.apply(null,slideHeights);
+    var maxHeight = 0;
+
+    while (maxHeight == 0){
+      slides.each(function(){
+        slideHeights.push($(this).height());
+        $(this).addClass("maxHeight").delay(200);
+      });
+      maxHeight = Math.max.apply(null,slideHeights);
+      console.log("maxHeight test");
+    }
     sliderMain.css("height",maxHeight);
 
     sliderMain.append(`
@@ -67,7 +72,7 @@ function changeSlide(n,el){
   selContWidth = selectorContainer.width();
   selWidth = selectors.eq(slide).width();
 
-  selContScroll = selContLeft - (selContWidth / 2) + (selWidth / 2); 
+  selContScroll = selContLeft - (selContWidth / 2) + (selWidth / 2);
 
   selectorContainer.animate({scrollLeft: selContScroll}, animTime);
 

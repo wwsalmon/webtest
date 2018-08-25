@@ -38,7 +38,7 @@ h1{
   margin: 0;
 }
 
-.page p, .page h1, .page ul, .page blockquote, .page .small-head, .page .head-p, .see-also{
+.page p, .page h1, .page ul, .page blockquote, .page .small-head, .page .head-p{
   max-width: 700px;
 }
 
@@ -67,6 +67,15 @@ h1{
   font-weight: 400;
   font-size: 20px;
   line-height: 1.6;
+}
+
+.page figcaption{
+  font-family: 'Roboto';
+  font-size: 20px;
+  line-height: 1.6;
+  opacity: 0.6;
+  margin-top: -16px;
+  margin-bottom: 42px;
 }
 
 .page ul{
