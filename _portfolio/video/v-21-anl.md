@@ -9,6 +9,12 @@ timeframe: "May 2018"
 displayTitle: John's Plan / ANL (2018)
 topStrip: video case study
 description: "Music video made as a part of comedy club Under the Bed's annual Andover Night Live show."
+
+see-more:
+  - andover
+  - cyclist
+  - andover-cycling
+  - ragtime
 ---
 
 {% include youtube-gen.html id='1fGMSweCU5o' %}

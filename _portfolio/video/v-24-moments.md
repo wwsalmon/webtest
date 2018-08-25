@@ -9,6 +9,9 @@ timeframe: "Aug 2017 / Feb 2018"
 displayTitle: Moments (2017/18)
 topStrip: video case study
 description: "Cinematic travel film of the American Southwest."
+
+see-more:
+  - americansw
 ---
 
 {% include youtube-gen.html id='UDABBKtyu-U' %}

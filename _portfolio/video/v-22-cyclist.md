@@ -9,6 +9,10 @@ timeframe: "April 2018"
 displayTitle: Cyclist (2018)
 topStrip: video case study
 description: "30 second short film about cycling made as an application for Andover Moviemakers."
+
+see-more:
+  - andover-cycling
+  
 ---
 
 {% include youtube-gen.html id='Vk1xYyLmjiU' %}

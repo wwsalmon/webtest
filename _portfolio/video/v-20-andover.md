@@ -9,6 +9,13 @@ timeframe: 2018
 displayTitle: Phillips Academy Admissions (2018)
 topStrip: video case study
 description: "A series of 2-minute long mini-videos sent to all newly admitted students promoting Andover and the #SayYesToAndover campaign."
+
+see-more:
+  - ragtime
+  - andover-cycling
+  - anl
+  - cyclist
+
 ---
 
 {% include youtube-gen.html id='bC0NVqqkSzM' %}

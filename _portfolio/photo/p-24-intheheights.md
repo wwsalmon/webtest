@@ -17,4 +17,8 @@ photos:
   - heights5
   - heights6
 
+see-more:
+  - ragtime
+  - columbiasecondary
+
 ---

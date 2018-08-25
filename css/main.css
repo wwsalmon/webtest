@@ -38,7 +38,7 @@ h1{
   margin: 0;
 }
 
-.page p, .page h1, .page ul, .page blockquote, .page .small-head, .page .head-p{
+.page p, .page h1, .page ul, .page blockquote, .page .small-head, .page .head-p, .see-also{
   max-width: 700px;
 }
 
@@ -83,6 +83,10 @@ h1{
   margin: 64px 0;
 }
 
+.see-also img{
+  margin: unset;
+}
+
 .divider{
   width: 64px;
   height: 4px;
@@ -95,6 +99,7 @@ h1{
   font-weight: 700;
   letter-spacing: 1px;
   margin: 84px 0 48px 0;
+  font-size: 24px;
 }
 
 .content-container{

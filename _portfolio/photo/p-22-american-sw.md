@@ -17,6 +17,7 @@ photos:
   - sw-3
   - sw-4
 
+see-more:
+  - moments
+
 ---
-
-

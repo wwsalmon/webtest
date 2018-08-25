@@ -18,4 +18,10 @@ layout: default
 
   {{ content }}
 
+  {% if page.see-more %}
+  {% include artlink.html %}
+  {% endif %}
+
+  <div class='back small-head'><a href='/'><span><i class="fas fa-long-arrow-alt-left"></i> Back Home</span></a></div>
+
 </div>
