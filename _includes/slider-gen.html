@@ -1,0 +1,14 @@
+<div class='slider'>
+  <div class='slider-main'>
+    {% for img in include.data %}
+    <img class='slider-img' src='img/photo/{{ page.permalink }}/{{ img }}.jpg'>
+    {% endfor %}
+  </div>
+  <div class='slider-selector-container'>
+    <div class='slider-selector'>
+      {% for img in include.data %}
+      <img class='slider-select' src='img/photo/{{ page.permalink }}/{{ img }}.jpg'>
+      {% endfor %}
+    </div>
+  </div>
+</div>

@@ -11,6 +11,11 @@ layout: default
 
   <div class='head-p'><span>{{ page.description }}</span></div>
 
+  {% if page.photos %}
+  {% include slider-gen.html data=page.photos %}
+  {% else %}
+  {% endif %}
+
   {{ content }}
 
 </div>

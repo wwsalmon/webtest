@@ -16,7 +16,6 @@ img.slider-img{
   transform: translate(-50%,-50%);
   position: absolute;
   max-width: 100%;
-  max-height: 650px!important;
 }
 
 .slider-selector-container{
@@ -70,12 +69,15 @@ img.slider-select:last-of-type{
   font-weight: 700;
   top: 50%;
   background-color: #fff;
-  transition: box-shadow 0.2s ease;
+  transition: all 0.2s ease;
   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  opacity: 0.5;
 }
 
 .slider-nav:hover{
   box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  opacity: 1.0;
+  transition: all 0.2s ease;
 }
 
 .slider-prev{
@@ -89,7 +91,7 @@ img.slider-select:last-of-type{
 
 @media (min-height: 700px){
   .slider{
-    max-height: 85vh;
+    max-height: 95vh;
   }
 
   .slider-img.maxHeight{
@@ -104,5 +106,9 @@ img.slider-select:last-of-type{
 
   .slider-selector{
     height: 180px;
+  }
+
+  img.slider-img{
+    max-height: 650px!important;
   }
 }
