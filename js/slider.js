@@ -62,8 +62,6 @@ function changeSlide(n,el){
 
   slides.eq(slide).fadeIn(animTime);
   selectors.eq(slide).addClass("slide-selected");
-  console.log("sliderReady");
-
 
   container.data("slide",slide);
 
@@ -76,7 +74,10 @@ function changeSlide(n,el){
   selectorContainer.animate({scrollLeft: selContScroll}, animTime);
 
   if (n == 0){
-    slides.addClass("slideReady");
+    setTimeout(function() {
+      slides.addClass("slideReady");
+      selectorContainer.addClass("slideReady");
+    }, animTime);
   }
 
 }
