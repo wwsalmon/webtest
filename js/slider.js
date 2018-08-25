@@ -1,22 +1,19 @@
 var animTime = 200;
 
-$(function(){
+$(".slider").imagesLoaded(function(){
   $(".slider").each(function(){
     var container = $(this);
     var slides = container.find(".slider-img");
     var sliderMain = container.find(".slider-main");
     var slideHeights = [];
 
-    var maxHeight = 0;
+    slides.each(function(){
+      slideHeights.push($(this).height());
+      $(this).addClass("maxHeight");
+    });
 
-    while (maxHeight == 0){
-      slides.each(function(){
-        slideHeights.push($(this).height());
-        $(this).addClass("maxHeight").delay(200);
-      });
-      maxHeight = Math.max.apply(null,slideHeights);
-      console.log("maxHeight test");
-    }
+    maxHeight = Math.max.apply(null,slideHeights);
+
     sliderMain.css("height",maxHeight);
 
     sliderMain.append(`
@@ -40,7 +37,7 @@ $(function(){
   $(".slider-select").click(function(){
     goToSlide($(this).index(), $(this));
   });
-});
+})
 
 function goToSlide(slideNum,el){
   var container = el.closest(".slider");
@@ -65,6 +62,8 @@ function changeSlide(n,el){
 
   slides.eq(slide).fadeIn(animTime);
   selectors.eq(slide).addClass("slide-selected");
+  console.log("sliderReady");
+
 
   container.data("slide",slide);
 
@@ -75,5 +74,9 @@ function changeSlide(n,el){
   selContScroll = selContLeft - (selContWidth / 2) + (selWidth / 2);
 
   selectorContainer.animate({scrollLeft: selContScroll}, animTime);
+
+  if (n == 0){
+    slides.addClass("slideReady");
+  }
 
 }

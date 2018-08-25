@@ -17,6 +17,11 @@ img.slider-img{
   position: absolute;
   max-width: 100%;
   user-select: none;
+  visibility: hidden;
+}
+
+img.slider-img.slideReady{
+  visibility: visible;
 }
 
 .slider-selector-container{
