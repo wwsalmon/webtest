@@ -48,14 +48,15 @@ img.slider-select{
   box-sizing: border-box;
   margin: 0 16px 0 0 !important;
   user-select: none;
+  opacity: 0.5;
 }
 
 img.slider-select:last-of-type{
   margin-right: 0;
 }
 
-.slide-selected{
-  opacity: 0.6;
+img.slider-select.slide-selected{
+  opacity: 1.0;
 }
 
 .slider-select, .slider-nav{

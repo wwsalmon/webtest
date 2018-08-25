@@ -20,6 +20,18 @@ grade-slider-1:
   - graded1
   - ungraded4
   - graded4
+
+grade-slider-2:
+  - ungraded3
+  - graded3a
+  - graded3b
+  - graded3c
+  - ungraded5
+  - graded5a
+  - graded5b
+  - ungraded6
+  - graded6a
+  - graded6b
 ---
 
 {% include youtube-gen.html id='UDABBKtyu-U' %}
@@ -79,51 +91,17 @@ Every single shot in the film was color corrected and graded. I fixed white bala
 
 In a first for me (I pick up tons of new things with every project!), I also did some masked adjustment layers to selectively grade parts of the image differently. For shots with distinct backgrounds and foregrounds, this let me really dial in the look I wanted. The first example is really dramatic, but the latter two are much more subtle.
 
-![](https://cdn-images-1.medium.com/max/1000/1*MqcGuDqxGQeIdWtFjhhWXg.jpeg) <span class="figcaption_hack">completely ungraded</span>
-
-![](https://cdn-images-1.medium.com/max/1000/1*lzbJ6-8pLH7uchnnT0mBxA.jpeg) <span class="figcaption_hack">only the grade on the person</span>
-
-![](https://cdn-images-1.medium.com/max/1000/1*MM5-vbrSSSH8POt2szEUhQ.jpeg) <span class="figcaption_hack">only the grade on the canyon</span>
-
-![](https://cdn-images-1.medium.com/max/2000/1*hnbbHBWBIrgX21h4h_QReQ.jpeg) <span class="figcaption_hack">the two grades combined for the final grade</span>
-
-![](https://cdn-images-1.medium.com/max/1000/1*3mx024ZehbsjKfTjfTxyvQ.jpeg) <span class="figcaption_hack">original ungraded image</span>
-
-![](https://cdn-images-1.medium.com/max/1000/1*q_sprYSzvkZOrtKrIxSxqA.jpeg) <span class="figcaption_hack">base grade</span>
-
-![](https://cdn-images-1.medium.com/max/1000/1*z4L5jV8iTVmkfPvNjRsOKQ.jpeg) <span class="figcaption_hack">base graded + background grade (look at right of image, mountains in back; this one’s subtle)</span>
-
-![](https://cdn-images-1.medium.com/max/1000/1*cT7GZgiqiVf3Xp0og_1wEA.jpeg) <span class="figcaption_hack">Ungraded</span>
-
-![](https://cdn-images-1.medium.com/max/1000/1*Vt0XJvWyjAzLJtPRkaAsSw.jpeg) <span class="figcaption_hack">Base grade</span>
-
-![](https://cdn-images-1.medium.com/max/1000/1*SfKprjOM7V1j1aLqG0g68g.jpeg) <span class="figcaption_hack">Base grade + background grade (look at mountains in back)</span>
+{% include slider-gen.html data=page.grade-slider-2 %}
 
 ### 3. Sound Design / Foley
 
-![](https://cdn-images-1.medium.com/max/1000/1*2yWivWIfNx2P2bEgy0GdXA.png)
+{% include image-gen.html src='/img/video/moments/timeline-foley.png' alt='timeline marked with foley notes' caption='timeline marked with foley notes' %}
 
 Another first: using foley in a bit of an abstract-ish way to deepen the effect of the footage. Foley just means that almost all the audio used wasn’t actually recorded live, but rather recorded after the fact or separately (in this case, sourced from [freesound.org](http://freesound.org/)).
 
 The first shot of the flag waving is accompanied by sound of a flag flapping in the wind (I believe the actual recording is of bedsheets flapping about a clothesline). Similarly, all the other sound clips are labeled above.
 
 Done at a sufficient level, as demonstrated by [Ash Tailor](https://www.youtube.com/watch?v=KzTAKmjgbgU), this foley can be rhythmic and pulsing in its own right. While I don’t think I quite achieved that level, the foley definitely added a level of immersion to the film.
-
-### 4. Thumbnail
-
-The thumbnail used a whole lot of further color grading and just a bit of Photoshop magic with the title to spice it up.
-
-The base ingredient was a still from the video, sans the black bars:
-
-![](https://cdn-images-1.medium.com/max/800/1*U003n_9NXiQc8rR7J5aXdw.jpeg)
-
-This I further graded in Photoshop:
-
-![](https://cdn-images-1.medium.com/max/800/1*rk8Ucc7ZxCtR4VgbdZSkew.jpeg)
-
-Lastly, I added in a big spaced-out title. It ducks behind the foreground a bit — I did this just by making a mask and manually tracing out the woman’s head. I also added a little drop shadow, by generating something close enough and then manually cutting it out. This way, I never had to deal with messily cutting out the shape of the woman itself.
-
-*****
 
 ## Conclusion
 

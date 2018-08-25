@@ -15,12 +15,8 @@ function changeTab(){
   selectedProjects = $("." + category);
   fadeProjects = allProjects.not(selectedProjects);
 
-  console.log(fadeProjects);
-
   fadeProjects.fadeOut(100);
   selectedProjects.fadeIn(200);
-
-  console.log(category);
 
   allTabs.removeClass("selected");
   selectedTab = $("label.small-head[for='" + category + "']");
