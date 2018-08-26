@@ -7,6 +7,10 @@
 {% endif %}
 
 <div class='slider'>
+  <div class='slider-load'>
+    <div class='slider-load-icon'></div>
+    <div class='slider-load-text'><span>Loading Images</span></div>
+  </div>
   <div class='slider-main'>
     {% for img in include.data %}
     <img class='slider-img' src='img/{% if isVid %}video{% else %}photo{% endif %}/{{ page.permalink }}/{{ img }}{% if custExt %}{% else %}.jpg{% endif %}'>

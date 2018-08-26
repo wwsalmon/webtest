@@ -1,8 +1,9 @@
 var animTime = 200;
 
-$(".slider").imagesLoaded(function(){
-  $(".slider").each(function(){
-    var container = $(this);
+$(".slider").each(function(){
+  var container = $(this);
+
+  container.imagesLoaded(function(){
     var slides = container.find(".slider-img");
     var sliderMain = container.find(".slider-main");
     var slideHeights = [];
@@ -13,6 +14,7 @@ $(".slider").imagesLoaded(function(){
     });
 
     maxHeight = Math.max.apply(null,slideHeights);
+    console.log(maxHeight);
 
     sliderMain.css("height",maxHeight);
 
@@ -21,23 +23,29 @@ $(".slider").imagesLoaded(function(){
       <div class='slider-nav slider-next'>&gt;</div>
     `)
 
+    var sliderNext = container.find(".slider-next");
+    var sliderPrev = container.find(".slider-prev");
+    var sliderSelect = container.find(".slider-select");
+
     container.data("slide",0);
     slides.fadeOut(animTime);
-    changeSlide(0,$(this));
-  });
+    changeSlide(0,container);
 
-  $(".slider-next").click(function(){
-    changeSlide(1, $(this));
-  });
+    sliderNext.click(function(){
+      changeSlide(1, $(this));
+    });
 
-  $(".slider-prev").click(function(){
-    changeSlide(-1, $(this));
-  });
+    sliderPrev.click(function(){
+      changeSlide(-1, $(this));
+    });
 
-  $(".slider-select").click(function(){
-    goToSlide($(this).index(), $(this));
+    sliderSelect.click(function(){
+      goToSlide($(this).index(), $(this));
+    });
   });
-})
+});
+
+
 
 function goToSlide(slideNum,el){
   var container = el.closest(".slider");
@@ -46,10 +54,12 @@ function goToSlide(slideNum,el){
 }
 
 function changeSlide(n,el){
+  console.log(el);
   var container = el.closest(".slider");
   var slides = container.find(".slider-img");
   var selectorContainer = container.find(".slider-selector-container");
   var selectors = container.find(".slider-select");
+  var loading = container.find(".slider-load");
 
   var slide = container.data("slide");
 
@@ -77,6 +87,7 @@ function changeSlide(n,el){
     setTimeout(function() {
       slides.addClass("slideReady");
       selectorContainer.addClass("slideReady");
+      loading.fadeOut(100);
     }, animTime);
   }
 

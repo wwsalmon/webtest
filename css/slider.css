@@ -99,6 +99,46 @@ img.slider-select.slide-selected{
   transform: translate(50%,-50%);
 }
 
+.slider-load{
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.slider-load-icon{
+  display: inline-block;
+  margin-bottom: 16px;
+  opacity: 0.2;
+}
+
+.slider-load-text{
+  text-align: center;
+}
+
+.slider-load-icon:after{
+  content: " ";
+  display: block;
+  width: 32px;
+  height: 32px;
+  margin: 1px;
+  border-radius: 50%;
+  border: 8px solid #000;
+  border-color: #000 transparent #000 transparent;
+  animation: lds-dual-ring 1.2s linear infinite;
+}
+
+@keyframes lds-dual-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
 @media (min-height: 700px){
   .slider{
     max-height: 95vh;
