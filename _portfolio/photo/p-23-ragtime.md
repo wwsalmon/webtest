@@ -16,4 +16,8 @@ photos:
   - edit1
   - edit5
 
+see-also:
+  - intheheights
+  - andover-cycling
+
 ---

@@ -1,30 +1,28 @@
----
-summer2018:
-  -
-    name: Cooper Union Summer STEM
-    keyword: custem
-    role: Makerspace Program - Auto Turner, Team Lead
-    description: 
-  -
-    name: POD 125 & Marisol Alcantara for NY Senate
-    keyword: pod125
-    role: Graphic Designer, Media Producer
-    description: Point of Departure 125 (POD 125) is a digital political advertisement agency based in New York City. One of POD's clients this summer was Marisol Alcantara, running for re-election in NY Senate District 31. I worked closely with POD and the campaign to create visuals of web ads as well as print posters and short social media videos. The ads I've created have reached hundreds of thousands of people and have high click-through rates.
-summer2017:
-  -
-    name: NYU Center for Mathematical Talent
-    keyword: nyucmt
-    role: Summer Program
-    description:
-  -
-    name: Marvin Holland for City Council
-    keyword: h4h
-    role: Lead Graphic Designer
-    description:
-school2018:
-  name: Phillips Academy Andover
-  grade: 10th Grade
-  classes:
-    - Precalculus
-    - Physics 400 (AP Physics)
-    - Music 500 & 550 (AP Music Theory)
+year2017:
+- name: "Simplest Form"
+  link: "simplestform"
+  role: "Founder — Designer, Dev., Author"
+  descript: "A web publication I launched with the mission of providing the most straightforward, easy-to-understand coding tutorials on the web."
+
+- name: "Cooper Union Summer STEM"
+  link: "autoturner"
+  role: "Makerspace Program — Auto Turner, Team Lead"
+  descript: "A mechanical page turner for musicians. The final result of Cooper Union's 6 week product design and prototyping Makerspace class in the Summer STEM 2018 program."
+
+- name: POD 125 & Marisol Alcantara for NY Senate
+  role: Graphic Designer, Media Producer
+  descript: "Point of Departure 125 (POD 125) is a digital political advertisement agency based in New York City. One of POD's clients this summer was Marisol Alcantara, running for re-election in NY Senate District 31. I worked closely with POD and the campaign to create visuals of web ads as well as print posters and short social media videos. The ads I've created have reached hundreds of thousands of people and have high click-through rates."
+
+year2016:
+- name: NYU Center for Mathematical Talent
+  role: Summer Program
+  descript: "asdfasdf"
+
+- name: Marvin Holland for City Council
+  role: Lead Graphic Designer
+  descript: "asdfasdf"
+  
+- name: 2 Train Robotics / Columbia University
+  role: Media Director
+  link: '2train'
+  descript: 'I joined 2 Train in September 2016. I worked with another team member to film and edit out crowdfunding video. I founded the media team, dedicated to documenting the season through video, working on any parts of the competition that required media, and running social media for outreach and seeking sponsors. Under my leadership, the team was able to compete in the Chairman’s Competition for the first time in several years, and underwent a website redesign and branding revamps.'

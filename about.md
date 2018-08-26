@@ -8,8 +8,6 @@ permalink: /about/
 
 {% include image-gen.html src='/img/about/profile3.jpg' alt='On top of Mt. Washburn, Yellowstone Nat. Park' %}
 
-## What I've Been Up To
-
 {% include positions.html %}
 
 ## My Story

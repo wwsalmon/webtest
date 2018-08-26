@@ -1,10 +1,13 @@
-<form>
-  <input type='checkbox' id='{{ item.keyword }}'>
-  <div class='about-item'><label for='{{ item.keyword }}'>
-    <span class='about-name'>{{ include.name }}</span>
-    <span class='about-role'>{{ include.role }}</span>
-  </label></div>
-  <div class='about-more-info'>
-    <p>{{ include.description }}</p>
+{% assign item = include.data %}
+<div class='about-item-outer'>
+  <div class='about-item'>
+    <span class='about-name'>{{ item.name }}</span>
+    <span class='about-role'>{{ item.role }}</span>
   </div>
-</form>
+  <div class='about-more-info'>
+    <div class='about-more-info-inner'>
+      {% if item.link %}{% include artlink.html data=item.link %}{% endif %}
+      <p class='about-info-text'>{{ item.descript }}</p>
+    </div>
+  </div>
+</div>

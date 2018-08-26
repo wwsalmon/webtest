@@ -1,0 +1,86 @@
+.about-positions{
+  padding-bottom: 64px;
+}
+
+.about-positions h3{
+  font-weight: 200;
+  font-size: 48px;
+  margin-top: 48px;
+  margin-bottom: 24px;
+}
+
+.about-item{
+  font-size: 28px;
+  cursor: pointer;
+  opacity: 0.4;
+  transition: all 0.4s ease;
+}
+
+.about-item:hover, .about-item.aboutChecked{
+  opacity: 1.0;
+}
+
+.about-name{
+  padding-right: 12px;
+  font-weight: 700;
+}
+
+.about-role{
+  opacity: 0.4;
+}
+
+.about-more-info{
+  overflow: hidden;
+  transition: height 0.2s ease;
+  padding: 8px 0;
+}
+
+.about-more-info-inner{
+  display: flex;
+  flex-flow: row nowrap;
+  padding: 0 0 48px 0;
+}
+
+.about-info-text{
+  margin: 16px 24px 24px 0!important;
+  order: 1;
+}
+
+.about-more-info .see-also{
+  order: 2;
+}
+
+.about-more-info .see-also .project-item{
+  flex-basis: 100%;
+}
+
+.about-more-info .see-also .small-head{
+  display: none;
+}
+
+@media (max-width: 1000px){
+  .about-more-info{
+    padding: 16px 0;
+  }
+
+  .about-more-info-inner{
+    flex-flow: column nowrap;
+  }
+
+  .about-more-info .see-also{
+    flex-shrink: 0;
+    max-width: 400px;
+  }
+}
+
+@media (min-width: 1000px){
+  .about-more-info-inner .see-also{
+    flex-shrink: 0.3;
+    flex-basis: 320px;
+  }
+
+  .about-more-info .see-also ~ .about-info-text{
+    padding-right: 24px;
+    border-right: 1px solid #000;
+  }
+}

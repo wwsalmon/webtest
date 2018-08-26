@@ -1,6 +1,7 @@
 @import url("sidebar.css");
 @import url("home-tabs.css");
 @import url("slider.css");
+@import url("about.css");
 
 body{
   margin: 0;
@@ -197,6 +198,7 @@ h1{
   margin: 0;
   font-size: 20px;
   font-weight: 300;
+  line-height: unset;
 }
 
 .profile{
@@ -237,76 +239,6 @@ div.other-item:not(:first-of-type){
 
 .footer p{
   opacity: 0.5;
-}
-
-.about-positions{
-  padding-bottom: 64px;
-}
-
-.about-positions h3{
-  margin-top: 48px;
-  margin-bottom: 24px;
-}
-
-.about-item label{
-  cursor: pointer;
-}
-
-.about-item{
-  cursor: pointer;
-  opacity: 0.4;
-  margin: 8px 0;
-  transition: all 0.4s ease;
-}
-
-.about-item:hover{
-  opacity: 1.0;
-}
-
-.about-item:hover .about-name{
-  border-bottom: 3px solid rgba(0,0,0,0.7);
-}
-
-.about-name{
-  padding-bottom: 8px;
-  border-bottom: 3px solid rgba(0,0,0,0);
-  transition: all 0.4s ease;
-}
-
-.about-more-info{
-  max-height: 0;
-  overflow: hidden;
-  transition: all 0.4s ease;
-  height: 300px;
-}
-
-.about-more-info img{
-  max-width: 200px;
-}
-
-.about-more-info p{
-  margin: 16px 0 48px 0;
-}
-
-.about-positions input[type='checkbox']{
-  display: none;
-}
-
-.about-positions input[type='checkbox']:checked ~ .about-more-info{
-  max-height: 300px;
-}
-
-.about-positions input[type='checkbox']:checked ~ .about-item{
-  opacity: 1.0;
-}
-
-.about-name{
-  font-weight: 700;
-}
-
-.about-role{
-  margin-left: 12px;
-  opacity: 0.4;
 }
 
 @media (min-width: 620px){

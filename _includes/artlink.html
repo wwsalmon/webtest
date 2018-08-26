@@ -1,13 +1,13 @@
 <div class='see-also'>
   <div class='small-head'><span>See also:</span></div>
   <div class='projects'>
-  {% for item in page.see-also %}
+  {% for item in include.data %}
     {% for project in site.portfolio %}
 
       {% if project.permalink == item %}
 
         <div class='project-item'>
-          <a href='{{ project.permalink }}'>
+          <a href='/{{ project.permalink }}'>
             <img src='{{ site.baseurl }}/img/thumb/{{ project.permalink }}{% if project.img-ext %}.{{ project.img-ext }}{% else %}.jpg{% endif %}'>
             <h2>{{ project.title }}</h2>
           </a>

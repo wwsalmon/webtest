@@ -12,7 +12,6 @@ plugins:
 collections:
   portfolio:
     output: true
-  positions:
 
 twitter:
   username: wwsalmon

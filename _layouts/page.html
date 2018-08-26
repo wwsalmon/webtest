@@ -19,7 +19,7 @@ layout: default
   {{ content }}
 
   {% if page.see-also %}
-  {% include artlink.html %}
+  {% include artlink.html data=page.see-also %}
   {% endif %}
 
   <div class='back small-head'><a href='/'><span><i class="fas fa-long-arrow-alt-left"></i> Back Home</span></a></div>
