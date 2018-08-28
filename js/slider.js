@@ -14,7 +14,6 @@ $(".slider").each(function(){
     });
 
     maxHeight = Math.max.apply(null,slideHeights);
-    console.log(maxHeight);
 
     sliderMain.css("height",maxHeight);
 
@@ -54,7 +53,6 @@ function goToSlide(slideNum,el){
 }
 
 function changeSlide(n,el){
-  console.log(el);
   var container = el.closest(".slider");
   var slides = container.find(".slider-img");
   var selectorContainer = container.find(".slider-selector-container");

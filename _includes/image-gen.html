@@ -1,5 +1,5 @@
 <div>
-  <img src='{{ include.src }}' alt="{{ include.alt }}">
+  <img src='{{ include.src }}' alt="{{ include.alt }}" {% if include.class %}class='{{ include.class }}'{% endif %}>
   {% if include.caption %}
   <figcaption><i class="far fa-image" style='margin-right: 4px;'></i>— {{ include.caption }}</figcaption>
   {% endif %}

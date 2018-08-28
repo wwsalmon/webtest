@@ -46,6 +46,11 @@
   order: 1;
 }
 
+.page .about-info-text p{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 .about-more-info .see-also{
   order: 2;
 }

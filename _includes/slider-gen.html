@@ -2,6 +2,10 @@
 {% assign isVid = true %}
 {% endif %}
 
+{% if page.cat == 'eng' %}
+{% assign isEng = true %}
+{% endif %}
+
 {% if page.slider-custom-extensions %}
 {% assign custExt = true %}
 {% endif %}
@@ -13,13 +17,13 @@
   </div>
   <div class='slider-main'>
     {% for img in include.data %}
-    <img class='slider-img' src='img/{% if isVid %}video{% else %}photo{% endif %}/{{ page.permalink }}/{{ img }}{% if custExt %}{% else %}.jpg{% endif %}'>
+    <img class='slider-img' src='img/{% if isVid %}video{% endif %}{% if isEng %}eng{% else %}photo{% endif %}/{{ page.permalink }}/{{ img }}{% if custExt %}{% else %}.jpg{% endif %}'>
     {% endfor %}
   </div>
   <div class='slider-selector-container'>
     <div class='slider-selector'>
       {% for img in include.data %}
-      <img class='slider-select' src='img/{% if isVid %}video{% else %}photo{% endif %}/{{ page.permalink }}/{{ img }}{% if custExt %}{% else %}.jpg{% endif %}'>
+      <img class='slider-select' src='img/{% if isVid %}video{% endif %}{% if isEng %}eng{% else %}photo{% endif %}/{{ page.permalink }}/{{ img }}{% if custExt %}{% else %}.jpg{% endif %}'>
       {% endfor %}
     </div>
   </div>

@@ -38,23 +38,7 @@ grade-slider-2:
 
 In summer 2017, my family and I took a trip to the American Southwest - Vegas, the Grand Canyon, Red Rock Canyon, Antelope Canyon. I brought my beefy RX10II along without any serious intention to shoot a video. Still, I ended up getting some good stuff - half a year later, I rediscovered all of the gorgeous footage and decided to put a little travel film together.
 
-## Quick Facts
-
-* A 2-minute-long travel film / highlight reel of my summer 2017
-* Shot over the course of summer 2017
-* Edited over a week, totaling ~4–5 hours
-* Tools used: Sony RX10 II w/ 24–200mm f/2.8; Adobe Premiere Pro; Adobe Photoshop
-* Skills: cinematography, video editing, color grading, graphic design
-
-## Background
-
-In August 2017, I flew with my family from NYC’s JFK into Las Vegas’ LAS. We walked around the Vegas strip, visited Red Rock Canyon, hiked five miles into the Grand Canyon, and did some other fun stuff. Throughout the trip, I had a camera around my neck (see *Tools* for discussion about that) and really without trying to make anything out of it took a bunch of video.
-
-At the end of it all, I just had a haphazard mess of footage — most of it pretty mediocre, but a lot of it pretty gorgeous and packed with potential. However, it wasn’t nearly enough for a vlog or to make anything narrative-y out of it. Six months of stumbling on the footage time and time again as I worked on other projects later, I finally found the spark to do something with it.
-
-The idea was to make a highlight-reel-y type video, no doubt influenced by Kraig Adams*’ 38-minute [Tokyo Super Vlog](https://www.youtube.com/watch?v=L3oD-Li3SzU) and following 2-minute [Travel Film](https://www.youtube.com/watch?v=kLT4nLWp4ZQ). In a week’s worth of lunch breaks, nights procrastinating homework or staying up too late, and a few hours over the weekend, my little edit was done.
-
-{% include image-gen.html src='/img/video/moments/timeline.png' alt='obligatory timeline snapshot' caption='obligatory timeline snapshot' %}
+The idea was to make a highlight-reel-y type video, influenced by Kraig Adams*’ 38-minute [Tokyo Super Vlog](https://www.youtube.com/watch?v=L3oD-Li3SzU) and following 2-minute [Travel Film](https://www.youtube.com/watch?v=kLT4nLWp4ZQ). In a week’s worth of lunch breaks, nights procrastinating homework or staying up too late, and a few hours over the weekend, my little edit was done.
 
 *****
 

@@ -7,7 +7,10 @@
   <div class='about-more-info'>
     <div class='about-more-info-inner'>
       {% if item.link %}{% include artlink.html data=item.link %}{% endif %}
-      <p class='about-info-text'>{{ item.descript }}</p>
+      <div class='about-info-text'>
+        {% if item.image %}{% include image-gen.html src=item.image %}{% endif %}
+        <p>{{ item.descript }}</p>
+      </div>
     </div>
   </div>
 </div>
