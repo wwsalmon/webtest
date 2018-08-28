@@ -9,7 +9,7 @@
       {% if item.link %}{% include artlink.html data=item.link %}{% endif %}
       <div class='about-info-text'>
         {% if item.image %}{% include image-gen.html src=item.image %}{% endif %}
-        <p>{{ item.descript }}</p>
+        <p>{{ item.descript }}<br/><br/>{% if item.weblink %}More Info: <a href='{{ item.link}}'>{{ item.weblink }}</a>{% endif %}</p>
       </div>
     </div>
   </div>

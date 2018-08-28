@@ -1,4 +1,4 @@
-year2017:
+year2018:
 - name: "Simplest Form"
   link: "simplestform"
   role: "Founder — Designer, Dev., Author"
@@ -13,15 +13,19 @@ year2017:
   role: Graphic Designer, Media Producer
   descript: "Point of Departure 125 (POD 125) is a digital political advertisement agency based in New York City. One of POD's clients this summer was Marisol Alcantara, running for re-election in NY Senate District 31. I worked closely with POD and the campaign to create visuals of web ads as well as print posters and short social media videos. The ads I've created have reached hundreds of thousands of people and have high click-through rates."
 
-year2016:
+year2017:
 - name: NYU Center for Mathematical Talent
   role: Summer Program
-  descript: "asdfasdf"
+  descript: "CMT's Summer Math Program for Young Scholars Program is an intensive 3-week long summer program for mathematically talented high school students...[students are] introduced to undergraduate level math topics while building problem solving skills. In past years, topics included, but are not limited to number theory, group theory, graph theory, combinatorics, as well as logic and methods of mathematical proof."
+  image: "/img/about/nyucmt.jpg"
+  weblink: "https://cims.nyu.edu/cmt/"
 
 - name: Marvin Holland for City Council
   role: Lead Graphic Designer
-  descript: "asdfasdf"
-  
+  descript: From when I joined the team until primary elections night, I worked closely with the campaign strategy team and social media team to produce all print and social media graphics put out by the campaign. I also refreshed the campaign’s branding and recreated old branding and graphics in higher resolution.
+  weblink: https://www.behance.net/gallery/66590313/Marvin-Holland-for-City-Council-Graphic-Design
+
+year2016:
 - name: 2 Train Robotics / Columbia University
   role: Media Director
   link: '2train'
